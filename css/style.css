@@ -51,7 +51,7 @@ html, body {
   vertical-align: middle;
   width: 140px;
 }
-#information {
+#imagesIsland {
   background: url('../images/scene1.png') no-repeat center center fixed;
   display: table;
   height: 800px;
@@ -62,18 +62,26 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
 }
-#information .panel {
+#imagesIsland .panel {
+  opacity: 0.85;
+}
+#imagesDungeon {
+  background: url('../images/armor-dungeon.png') no-repeat center center fixed;
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#imagesDungeon .panel {
   opacity: 0.85;
 }
 footer {
-  padding: 20px 0;
-}
-footer .glyphicon {
-  color: #333333;
-  font-size: 60px;
-}
-footer .glyphicon:hover {
-  color: #306d9f;
+  background-color: black;
+  color: white;
 }
 
 .circle-img {
@@ -89,4 +97,18 @@ footer .glyphicon:hover {
   height: 100%;
   transform: translateX(-50%);
   margin-left: 50%;
+}
+#map {
+  background: url('../images/map-world.png') no-repeat center center fixed;
+  display: table;
+  height: 120%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#map .panel {
+  opacity: 0.85;
 }
