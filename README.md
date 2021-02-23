@@ -1,2 +1,2 @@
-# severed-lands-webiste
+# severed-lands-website
 Main Website for Severed Lands
